@@ -220,6 +220,12 @@ button.btn.btn-warning:hover {
   background-color: #f5f5f5;
 }
 
+#pricing-panel .row-pricing {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 #pricing-panel hr {
   border: 1px #ff8b38 solid;
   width: 64px;
@@ -285,7 +291,7 @@ button.btn.btn-warning:hover {
 
 @media screen and (max-width: 576px) {
   #pricing-panel {
-    background-color: #000;
+    background-color: #ddd;
   }
   .card-sec {
     padding-bottom: 30px;
@@ -294,6 +300,7 @@ button.btn.btn-warning:hover {
 
 #custom-panel {
   background: url(/images/banner-04.png);
+  background-size: cover;
   color: #ccc;
 }
 
@@ -318,7 +325,7 @@ button.btn.btn-warning:hover {
 #contact .form-ct {
   border: 0;
   border-bottom: 1px #eee solid !important;
-  padding-bottom: 15px;
+  padding: 30px;
 }
 
 #contact .btn-ct {
