@@ -232,7 +232,7 @@ button.btn.btn-warning:hover {
 }
 
 #pricing-panel .card_header {
-  background-color: #000;
+  background-color: #444;
   color: #fff;
 }
 
@@ -355,5 +355,13 @@ footer .copyright {
   padding: 10px;
   color: #86878b;
   font-size: 12px;
+}
+
+h2.title-bl.text-center {
+  font-weight: 300;
+}
+
+span.sub-title {
+  color: #86878b;
 }
 /*# sourceMappingURL=style.css.map */
