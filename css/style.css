@@ -3,10 +3,14 @@
   padding: 0 auto;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 header {
   background: url(/images/slider.png);
   background-size: cover;
-  height: 95vh;
+  height: 90vh;
 }
 
 header .navbar-dark {
@@ -90,7 +94,7 @@ p {
   color: #86878b;
 }
 
-.img {
+.img-bgr {
   width: 100%;
 }
 
