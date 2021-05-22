@@ -329,7 +329,7 @@ button.btn.btn-warning:hover {
 #contact .form-ct {
   border: 0;
   border-bottom: 1px #eee solid !important;
-  padding: 30px;
+  padding: 30px 5px;
 }
 
 #contact .btn-ct {
