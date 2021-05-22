@@ -283,6 +283,15 @@ button.btn.btn-warning:hover {
   color: #86878b;
 }
 
+@media screen and (max-width: 576px) {
+  #pricing-panel {
+    background-color: #000;
+  }
+  .card-sec {
+    padding-bottom: 30px;
+  }
+}
+
 #custom-panel {
   background: url(/images/banner-04.png);
   color: #ccc;
