@@ -25,6 +25,14 @@ header .navbar-collapse ul li a {
   padding-left: 30px !important;
 }
 
+header .nav-item .nav-link {
+  color: #ddd !important;
+}
+
+header .nav-item .nav-link:hover {
+  color: #ff8b38 !important;
+}
+
 .slider {
   height: calc(100vh - 56px);
   display: -webkit-box;
@@ -99,6 +107,34 @@ header .navbar-collapse ul li a {
 
 .social-media .icon a {
   color: #ccc;
+}
+
+.social-media .icon a:hover .fa-facebook-f {
+  color: #1877f2;
+}
+
+.social-media .icon a:hover .fa-twitter {
+  color: #1DA1F2;
+}
+
+.social-media .icon a:hover .fa-google-plus {
+  color: #d34836;
+}
+
+.social-media .icon a:hover .fa-pinterest {
+  color: #F0002A;
+}
+
+.social-media .icon a:hover .fa-instagram {
+  color: #F0002A;
+}
+
+.social-media .icon a:hover .fa-stumbleupon {
+  color: #EB4924;
+}
+
+.social-media .icon a:hover .fa-rss {
+  color: orange;
 }
 
 @media screen and (max-width: 576px) {
@@ -273,6 +309,12 @@ button.btn.btn-warning:hover {
   width: 64px;
 }
 
+#pricing-panel .card-sec:hover .card-ctn {
+  -webkit-box-shadow: 0 1px 5px #86878b;
+          box-shadow: 0 1px 5px #86878b;
+  position: relative;
+}
+
 #pricing-panel .card_header {
   background-color: #444;
   color: #fff;
@@ -280,11 +322,11 @@ button.btn.btn-warning:hover {
 
 #pricing-panel .card_header .title-card {
   padding: 10px;
-  border-bottom: 1px solid #f5f5f5;
+  border-bottom: 0.25px solid #d2d2d2;
 }
 
 #pricing-panel .card_header .price {
-  border-bottom: 1px solid #f5f5f5;
+  border-bottom: 0.25px solid #d2d2d2;
   line-height: 1;
 }
 
@@ -391,6 +433,34 @@ footer a {
   text-decoration: none;
   color: #ccc;
   padding-right: 20px;
+}
+
+footer a:hover .fa-facebook-f {
+  color: #1877f2;
+}
+
+footer a:hover .fa-twitter {
+  color: #1DA1F2;
+}
+
+footer a:hover .fa-google-plus {
+  color: #d34836;
+}
+
+footer a:hover .fa-pinterest {
+  color: #F0002A;
+}
+
+footer a:hover .fa-instagram {
+  color: #F0002A;
+}
+
+footer a:hover .fa-stumbleupon {
+  color: #EB4924;
+}
+
+footer a:hover .fa-rss {
+  color: orange;
 }
 
 footer .copyright {

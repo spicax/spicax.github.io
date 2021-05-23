@@ -16,6 +16,7 @@ header {
     background-size: cover;
     height: 100vh;
 
+
     .navbar-dark {
         background-color: #000 !important;
     }
@@ -28,6 +29,18 @@ header {
                 }
             }
 
+        }
+    }
+
+    .nav-item {
+        .nav-link.active {}
+
+        .nav-link {
+            color: #ddd !important;
+
+            &:hover {
+                color: #ff8b38 !important;
+            }
         }
     }
 }
@@ -101,6 +114,36 @@ header {
 
         a {
             color: #ccc;
+
+            &:hover {
+                .fa-facebook-f {
+                    color: #1877f2;
+                }
+
+                .fa-twitter {
+                    color: #1DA1F2;
+                }
+
+                .fa-google-plus {
+                    color: #d34836;
+                }
+
+                .fa-pinterest {
+                    color: #F0002A;
+                }
+
+                .fa-instagram {
+                    color: #F0002A;
+                }
+
+                .fa-stumbleupon {
+                    color: #EB4924;
+                }
+
+                .fa-rss {
+                    color: orange;
+                }
+            }
         }
     }
 
@@ -307,17 +350,27 @@ button.btn.btn-warning {
         width: 64px;
     }
 
+    .card-sec {
+
+        &:hover {
+            .card-ctn {
+                box-shadow: 0 1px 5px #86878b;
+                position: relative;
+            }
+        }
+    }
+
     .card_header {
         background-color: #444;
         color: #fff;
 
         .title-card {
             padding: 10px;
-            border-bottom: 1px solid #f5f5f5;
+            border-bottom: 0.25px solid #d2d2d2;
         }
 
         .price {
-            border-bottom: 1px solid #f5f5f5;
+            border-bottom: 0.25px solid #d2d2d2;
             line-height: 1;
 
             .sub-price {
@@ -421,6 +474,36 @@ footer {
         text-decoration: none;
         color: #ccc;
         padding-right: 20px;
+
+        &:hover {
+            .fa-facebook-f {
+                color: #1877f2;
+            }
+
+            .fa-twitter {
+                color: #1DA1F2;
+            }
+
+            .fa-google-plus {
+                color: #d34836;
+            }
+
+            .fa-pinterest {
+                color: #F0002A;
+            }
+
+            .fa-instagram {
+                color: #F0002A;
+            }
+
+            .fa-stumbleupon {
+                color: #EB4924;
+            }
+
+            .fa-rss {
+                color: orange;
+            }
+        }
     }
 
     .copyright {
