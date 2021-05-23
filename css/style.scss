@@ -12,7 +12,7 @@ p {
 }
 
 header {
-    background: url(/images/slider.png);
+    background-image: url(/images/slider.png);
     background-size: cover;
     height: 100vh;
 
@@ -33,7 +33,6 @@ header {
     }
 
     .nav-item {
-        .nav-link.active {}
 
         .nav-link {
             color: #ccc !important;
@@ -47,9 +46,7 @@ header {
     .slider {
         background: rgba(43, 43, 43, 0.4);
 
-        &:hover {
-            background-color: transparent;
-        }
+
     }
 
 
@@ -439,9 +436,10 @@ button.btn.btn-warning {
 
 
 #custom-panel {
-    background: url(/images/banner-04.png);
+    background-image: url(/images/banner-04.png);
     background-size: cover;
     color: #f5f5f5;
+    padding: 0;
 
     hr {
         border: 1px #f5f5f5 solid;
@@ -450,6 +448,11 @@ button.btn.btn-warning {
 
     .sub-title {
         padding-bottom: 20px !important;
+    }
+
+    .custom-pl {
+        background: rgba(43, 43, 43, 0.6);
+        padding: 120px 0;
     }
 }
 
@@ -614,3 +617,24 @@ span.sub-title {
         transform: translateY(46px);
     }
 }
+
+.parallax {
+    /* The image used */
+    // background-image: url('img_parallax.jpg');
+
+    /* Full height */
+    // height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+// @media only screen and (max-device-width: 1366px) {
+//     .parallax {
+//         background-attachment: scroll;
+//     }
+// }
