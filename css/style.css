@@ -26,11 +26,19 @@ header .navbar-collapse ul li a {
 }
 
 header .nav-item .nav-link {
-  color: #ddd !important;
+  color: #ccc !important;
 }
 
 header .nav-item .nav-link:hover {
-  color: #ff8b38 !important;
+  color: #fff !important;
+}
+
+header .slider {
+  background: rgba(43, 43, 43, 0.4);
+}
+
+header .slider:hover {
+  background-color: transparent;
 }
 
 .slider {

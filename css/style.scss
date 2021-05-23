@@ -36,13 +36,23 @@ header {
         .nav-link.active {}
 
         .nav-link {
-            color: #ddd !important;
+            color: #ccc !important;
 
             &:hover {
-                color: #ff8b38 !important;
+                color: #fff !important;
             }
         }
     }
+
+    .slider {
+        background: rgba(43, 43, 43, 0.4);
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+
+
 }
 
 .slider {
