@@ -66,6 +66,13 @@ header .navbar-collapse ul li a {
     padding: 50px 0;
     color: #fff;
   }
+  .nav-item {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  .nav-item .nav-link {
+    padding-left: 0 !important;
+  }
 }
 
 .social-media {
@@ -114,6 +121,7 @@ p {
   width: 100%;
 }
 
+/*Features */
 #features {
   background-color: #f5f5f5;
 }
@@ -166,6 +174,9 @@ button.btn.btn-warning:hover {
 @media screen and (max-width: 576px) {
   .tab-content {
     padding: 0 10px;
+  }
+  .tab-img {
+    padding-top: 20px;
   }
 }
 
@@ -379,5 +390,11 @@ h2.title-bl.text-center {
 
 span.sub-title {
   color: #86878b;
+}
+
+@media screen and (max-width: 576px) {
+  .title-lb {
+    font-size: 20px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
