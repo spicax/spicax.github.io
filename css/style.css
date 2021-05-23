@@ -25,8 +25,20 @@ header .navbar-collapse ul li a {
   padding-left: 30px !important;
 }
 
+.slider {
+  height: calc(100vh - 56px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .slider-title {
-  padding: 100px 0;
   color: #fff;
 }
 
