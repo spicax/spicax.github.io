@@ -14,7 +14,7 @@ p {
 header {
   background: url(/images/slider.png);
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
 }
 
 header .navbar-dark {
