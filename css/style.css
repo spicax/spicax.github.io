@@ -26,6 +26,11 @@ header .navbar-dark {
   background-color: #000 !important;
 }
 
+header .navbar-collapse ul {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 header .navbar-collapse ul li a {
   padding-left: 30px !important;
 }

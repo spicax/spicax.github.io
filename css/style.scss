@@ -27,6 +27,8 @@ header {
 
     .navbar-collapse {
         ul {
+            transition: 0.5s;
+
             li {
                 a {
                     padding-left: 30px !important;
