@@ -16,16 +16,19 @@ header {
     background-size: cover;
     height: 100vh;
 
-    .navbar {
-        display: block !important;
-        position: fixed !important;
-        top: 0px;
-        left: 0px;
-        z-index: 20;
-    }
+
+
+    // .navbar {
+    //     display: block !important;
+    //     position: fixed !important;
+    //     top: 0px;
+    //     left: 0px;
+    //     z-index: 20;
+    // }
 
     .navbar-dark {
         background-color: #000 !important;
+        width: 100% !important;
     }
 
     .navbar-collapse {
