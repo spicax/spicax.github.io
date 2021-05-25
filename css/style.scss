@@ -16,6 +16,13 @@ header {
     background-size: cover;
     height: 100vh;
 
+    .navbar {
+        display: block !important;
+        position: fixed !important;
+        top: 0px;
+        left: 0px;
+        z-index: 20;
+    }
 
     .navbar-dark {
         background-color: #000 !important;
@@ -361,7 +368,7 @@ button.btn.btn-warning {
 
         &:hover {
             .card-ctn {
-                box-shadow: 0 1px 5px #86878b;
+                box-shadow: 10px 10px 12px -10px rgb(201 201 201 / 67%);
                 position: relative;
             }
         }

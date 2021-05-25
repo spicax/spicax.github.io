@@ -314,8 +314,8 @@ button.btn.btn-warning:hover {
 }
 
 #pricing-panel .card-sec:hover .card-ctn {
-  -webkit-box-shadow: 0 1px 5px #86878b;
-          box-shadow: 0 1px 5px #86878b;
+  -webkit-box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.05) !important;
+          box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.05) !important;
   position: relative;
 }
 
