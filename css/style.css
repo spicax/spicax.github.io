@@ -402,6 +402,7 @@ button.btn.btn-warning:hover {
   background-size: cover;
   color: #f5f5f5;
   padding: 0;
+  width: auto;
 }
 
 #custom-panel hr {
@@ -595,5 +596,12 @@ span.sub-title {
   .parallax {
     background-attachment: scroll;
   }
+}
+
+.form-control:focus {
+  border: none !important;
+  border-bottom: 1px #eee solid !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 /*# sourceMappingURL=style.css.map */

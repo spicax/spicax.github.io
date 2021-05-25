@@ -446,6 +446,7 @@ button.btn.btn-warning {
     background-size: cover;
     color: #f5f5f5;
     padding: 0;
+    width: auto;
 
     hr {
         border: 1px #f5f5f5 solid;
@@ -643,4 +644,10 @@ span.sub-title {
     .parallax {
         background-attachment: scroll;
     }
+}
+
+.form-control:focus {
+    border: none !important;
+    border-bottom: 1px #eee solid !important;
+    box-shadow: none;
 }
