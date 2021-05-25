@@ -591,4 +591,9 @@ span.sub-title {
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-width: 1024px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
 /*# sourceMappingURL=style.css.map */
