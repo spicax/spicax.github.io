@@ -17,6 +17,11 @@ header {
   height: 100vh;
 }
 
+header .navbar {
+  width: 100% !important;
+  z-index: 20;
+}
+
 header .navbar-dark {
   background-color: #000 !important;
 }
